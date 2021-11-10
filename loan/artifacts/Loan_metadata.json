@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenToBorrow",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenAsCollateral",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "collateralAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "loan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"loan/loan.sol": "Loan"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"loan/ierc20token.sol": {
+			"keccak256": "0x7e84c7e2d7444104b23c67af300bc1c12d8fd1571dc75c0cb481aced3dd22d2a",
+			"urls": [
+				"bzz-raw://710256a4ef75026321c3f38354ddaca582d6cae60c21b1ee2eb3e3be7b91bf6e",
+				"dweb:/ipfs/QmYaS4SELZLHnycbmJwaf7YmweXY5c382vvF1sgXyv1PRk"
+			]
+		},
+		"loan/loan.sol": {
+			"keccak256": "0xe1b776f12be59fbedf41925c69722389d900d7d112d5acf9168e136e1856218e",
+			"urls": [
+				"bzz-raw://375238590169bec1a4605b276ef0cbc9e9053557d13b8346445c6b4f8d374333",
+				"dweb:/ipfs/QmecT7rUxT1q3ndpujjURRFJcy3aKqTQC9H3veNBatq2ca"
+			]
+		}
+	},
+	"version": 1
+}

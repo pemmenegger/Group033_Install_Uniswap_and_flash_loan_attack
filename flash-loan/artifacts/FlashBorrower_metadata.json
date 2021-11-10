@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC3156FlashLender",
+						"name": "lender_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "flashBorrow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "initiator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onFlashLoan",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"flashBorrow(address,uint256)": {
+					"details": "Initiate a flash loan"
+				},
+				"onFlashLoan(address,address,uint256,uint256,bytes)": {
+					"details": "ERC-3156 Flash loan callback"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flash-loan/FlashBorrower.sol": "FlashBorrower"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flash-loan/FlashBorrower.sol": {
+			"keccak256": "0x4260f6cc01265f45518600888ddf3cdd06370bd9d7a56504770e3e317106bb28",
+			"urls": [
+				"bzz-raw://1b53522dada73df56caa1568cd8dd091124a7e01b10eb462ae5b491475816c30",
+				"dweb:/ipfs/QmbpF2fpVs4EHsvGD13zicvDLVtH5bt26bUNKTE1mfkPKM"
+			]
+		},
+		"flash-loan/IERC20.sol": {
+			"keccak256": "0x1583c0eb3936daad6131957100a5fca59b9c74c370f747d6df01712d91a75b6c",
+			"urls": [
+				"bzz-raw://3c8f414c11b03c9a205a1ecb981881cb28610fe7dc23f16e6da88fa9d9c63a92",
+				"dweb:/ipfs/QmXKRe2W3cSnLbvoa4WxAm4dhV1mtN7FJHi7CmobcPPeon"
+			]
+		},
+		"flash-loan/IERC3156FlashBorrower.sol": {
+			"keccak256": "0x64054b1adea8f7fa1557a5870b8037e6fe16f8698f8ff5bfa4a3c3b4cb2c6b43",
+			"urls": [
+				"bzz-raw://79fe009304cc24638f26fef56e2e542cf565b81ab13cc94e292806a44d9b7f1a",
+				"dweb:/ipfs/QmWNrhF3jS6NN23UYZXqydGcEncMyY3Gifb7tn1GDA26UG"
+			]
+		},
+		"flash-loan/IERC3156FlashLender.sol": {
+			"keccak256": "0x61a95a78341e86d78d1ec31e2268a852ee60463bc7d97902090494ae414300f3",
+			"urls": [
+				"bzz-raw://0d503eb7b592ff2a1b8402d764efa171499417c1704d9cba68871009ad6271a8",
+				"dweb:/ipfs/QmYL1qpCAKY2yFXyWuTDXonhrvJsZYgTVbK3B1ZEpuFnH8"
+			]
+		}
+	},
+	"version": 1
+}

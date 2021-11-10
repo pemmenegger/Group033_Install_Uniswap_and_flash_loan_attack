@@ -1,0 +1,204 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "supportedTokens_",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fee_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "CALLBACK_SUCCESS",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "flashFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC3156FlashBorrower",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "flashLoan",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "maxFlashLoan",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "supportedTokens",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flash-loan/FlashLender.sol": "FlashLender"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flash-loan/FlashLender.sol": {
+			"keccak256": "0xa5db488b80988aef8a42714f2d6be049a6b04009b364afa90b4212a0542a5194",
+			"urls": [
+				"bzz-raw://5baca40e41dff49f47475da3311d1115acffc44f0827ccf1f8681dc42310159d",
+				"dweb:/ipfs/QmbATeyW5cfvv2mBeiaejB7ZcpLNYSrBmorLxEnsFUa26A"
+			]
+		},
+		"flash-loan/IERC20.sol": {
+			"keccak256": "0x1583c0eb3936daad6131957100a5fca59b9c74c370f747d6df01712d91a75b6c",
+			"urls": [
+				"bzz-raw://3c8f414c11b03c9a205a1ecb981881cb28610fe7dc23f16e6da88fa9d9c63a92",
+				"dweb:/ipfs/QmXKRe2W3cSnLbvoa4WxAm4dhV1mtN7FJHi7CmobcPPeon"
+			]
+		},
+		"flash-loan/IERC3156FlashBorrower.sol": {
+			"keccak256": "0x64054b1adea8f7fa1557a5870b8037e6fe16f8698f8ff5bfa4a3c3b4cb2c6b43",
+			"urls": [
+				"bzz-raw://79fe009304cc24638f26fef56e2e542cf565b81ab13cc94e292806a44d9b7f1a",
+				"dweb:/ipfs/QmWNrhF3jS6NN23UYZXqydGcEncMyY3Gifb7tn1GDA26UG"
+			]
+		},
+		"flash-loan/IERC3156FlashLender.sol": {
+			"keccak256": "0x61a95a78341e86d78d1ec31e2268a852ee60463bc7d97902090494ae414300f3",
+			"urls": [
+				"bzz-raw://0d503eb7b592ff2a1b8402d764efa171499417c1704d9cba68871009ad6271a8",
+				"dweb:/ipfs/QmYL1qpCAKY2yFXyWuTDXonhrvJsZYgTVbK3B1ZEpuFnH8"
+			]
+		}
+	},
+	"version": 1
+}
