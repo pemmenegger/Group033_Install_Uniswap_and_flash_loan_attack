@@ -17,45 +17,6 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "curBalanceDoge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "curBalanceUsdt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "delta",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -71,32 +32,6 @@
 				"name": "flashBorrow",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "newBalanceDoge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "newBalanceUsdt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -120,11 +55,6 @@
 						"internalType": "uint256",
 						"name": "fee",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
 					}
 				],
 				"name": "onFlashLoan",
@@ -145,7 +75,7 @@
 				"flashBorrow(address,uint256)": {
 					"details": "Initiate a flash loan"
 				},
-				"onFlashLoan(address,address,uint256,uint256,bytes)": {
+				"onFlashLoan(address,address,uint256,uint256)": {
 					"details": "ERC-3156 Flash loan callback"
 				}
 			},
@@ -182,11 +112,11 @@
 			]
 		},
 		"flash-loan/FlashBorrower.sol": {
-			"keccak256": "0xaeb28b11ff967021da24fbbcb0d2536268cf70a36cca9a4e83b66ed63e4f48f0",
+			"keccak256": "0x688a080eabc4e02d2019cec707bd2f4d6f69050f906d9e53343f9bb5e4a6bf01",
 			"license": "UZH",
 			"urls": [
-				"bzz-raw://10696f7fc399c36da39341a1ff9f46d1fc98c4c99963760e1636706a197f826f",
-				"dweb:/ipfs/QmdZD9T9bJTEbVq4VDJPLAUP3tYfWW4FpUKY8Lp9YGUvsf"
+				"bzz-raw://6c0754062729422d10d5c1464a074525e7fbb3c8e2e4a230dcb989b7aa61d1fa",
+				"dweb:/ipfs/QmdF8qL7qpeQ9BwxCHwbsbmKuR7CJJgAZSMi74joHhijmE"
 			]
 		},
 		"flash-loan/IERC20.sol": {
@@ -197,17 +127,17 @@
 			]
 		},
 		"flash-loan/IERC3156FlashBorrower.sol": {
-			"keccak256": "0x64054b1adea8f7fa1557a5870b8037e6fe16f8698f8ff5bfa4a3c3b4cb2c6b43",
+			"keccak256": "0x853406a46a60053858e90ad66a5ee238d633f3eb78f18c720d530561158e1397",
 			"urls": [
-				"bzz-raw://79fe009304cc24638f26fef56e2e542cf565b81ab13cc94e292806a44d9b7f1a",
-				"dweb:/ipfs/QmWNrhF3jS6NN23UYZXqydGcEncMyY3Gifb7tn1GDA26UG"
+				"bzz-raw://b56321a6786cee21e1bef8f7f7f170a08e32c67acaf11342e7cdd69fdfb93a4b",
+				"dweb:/ipfs/QmaVyUknjCw6D29QTeMyrgqt7SmKirk8661NeH3Xe4mJNm"
 			]
 		},
 		"flash-loan/IERC3156FlashLender.sol": {
-			"keccak256": "0x61a95a78341e86d78d1ec31e2268a852ee60463bc7d97902090494ae414300f3",
+			"keccak256": "0xa178542630e7f40cef91afcbb73e2a143d0d99c80ef5be211e996d3ca01140e6",
 			"urls": [
-				"bzz-raw://0d503eb7b592ff2a1b8402d764efa171499417c1704d9cba68871009ad6271a8",
-				"dweb:/ipfs/QmYL1qpCAKY2yFXyWuTDXonhrvJsZYgTVbK3B1ZEpuFnH8"
+				"bzz-raw://6c8ea5fdcc56146c40d53473390114f0a40ec23095564ee058a40ca629ea5f80",
+				"dweb:/ipfs/QmRLiokmhWeNtZUpage3Vex6cRQvz8a1ErTsWnXvGapqSQ"
 			]
 		},
 		"uniswap-v2/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {

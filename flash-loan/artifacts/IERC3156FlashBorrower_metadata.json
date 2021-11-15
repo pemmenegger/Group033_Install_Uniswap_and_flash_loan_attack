@@ -26,11 +26,6 @@
 						"internalType": "uint256",
 						"name": "fee",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
 					}
 				],
 				"name": "onFlashLoan",
@@ -66,17 +61,17 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"flash-loan/IERC3156FlashBorrower.sol": {
-			"keccak256": "0x64054b1adea8f7fa1557a5870b8037e6fe16f8698f8ff5bfa4a3c3b4cb2c6b43",
+			"keccak256": "0x853406a46a60053858e90ad66a5ee238d633f3eb78f18c720d530561158e1397",
 			"urls": [
-				"bzz-raw://79fe009304cc24638f26fef56e2e542cf565b81ab13cc94e292806a44d9b7f1a",
-				"dweb:/ipfs/QmWNrhF3jS6NN23UYZXqydGcEncMyY3Gifb7tn1GDA26UG"
+				"bzz-raw://b56321a6786cee21e1bef8f7f7f170a08e32c67acaf11342e7cdd69fdfb93a4b",
+				"dweb:/ipfs/QmaVyUknjCw6D29QTeMyrgqt7SmKirk8661NeH3Xe4mJNm"
 			]
 		}
 	},

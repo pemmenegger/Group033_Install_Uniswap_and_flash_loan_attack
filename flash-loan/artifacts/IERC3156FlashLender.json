@@ -47,7 +47,9 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"onFlashLoan(address,address,uint256,uint256)": "f3a78104"
+			"flashFee(address,uint256)": "d9d98ce4",
+			"flashLoan(address,address,uint256)": "9d9638a1",
+			"maxFlashLoan(address)": "613255ab"
 		}
 	},
 	"abi": [
@@ -55,7 +57,31 @@
 			"inputs": [
 				{
 					"internalType": "address",
-					"name": "initiator",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "flashFee",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "contract IERC3156FlashBorrower",
+					"name": "receiver",
 					"type": "address"
 				},
 				{
@@ -67,22 +93,36 @@
 					"internalType": "uint256",
 					"name": "amount",
 					"type": "uint256"
-				},
-				{
-					"internalType": "uint256",
-					"name": "fee",
-					"type": "uint256"
 				}
 			],
-			"name": "onFlashLoan",
+			"name": "flashLoan",
 			"outputs": [
 				{
-					"internalType": "bytes32",
+					"internalType": "bool",
 					"name": "",
-					"type": "bytes32"
+					"type": "bool"
 				}
 			],
 			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				}
+			],
+			"name": "maxFlashLoan",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
 			"type": "function"
 		}
 	]

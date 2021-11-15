@@ -8,48 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address[]",
-						"name": "supportedTokens_",
-						"type": "address[]"
-					},
-					{
-						"internalType": "uint256",
-						"name": "fee_",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "CALLBACK_SUCCESS",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fee",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "address",
 						"name": "token",
 						"type": "address"
@@ -118,25 +76,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "supportedTokens",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -152,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"flash-loan/FlashLender.sol": "FlashLender"
+			"flash-loan/IERC3156FlashLender.sol": "IERC3156FlashLender"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -166,25 +105,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"flash-loan/FlashLender.sol": {
-			"keccak256": "0x2fef8be384432caf0850f1a01b759ba0af0bdddf39633a4350e2da2f88d359ca",
-			"urls": [
-				"bzz-raw://f48f413ac318996a8259c37ee760a2aa6bc13ed22761dcb25d1f0c759c9627bc",
-				"dweb:/ipfs/QmUcm4D1qTC74gHgjQVwRyL92cVgZX6Hn4SPshecKkJ3Go"
-			]
-		},
-		"flash-loan/IERC20.sol": {
-			"keccak256": "0x1583c0eb3936daad6131957100a5fca59b9c74c370f747d6df01712d91a75b6c",
-			"urls": [
-				"bzz-raw://3c8f414c11b03c9a205a1ecb981881cb28610fe7dc23f16e6da88fa9d9c63a92",
-				"dweb:/ipfs/QmXKRe2W3cSnLbvoa4WxAm4dhV1mtN7FJHi7CmobcPPeon"
-			]
-		},
 		"flash-loan/IERC3156FlashBorrower.sol": {
-			"keccak256": "0x853406a46a60053858e90ad66a5ee238d633f3eb78f18c720d530561158e1397",
+			"keccak256": "0x5dc6ed96593ae51bfbc8a9f4682ca8c6bcf05ab9dac854f0015bec3c518fce87",
 			"urls": [
-				"bzz-raw://b56321a6786cee21e1bef8f7f7f170a08e32c67acaf11342e7cdd69fdfb93a4b",
-				"dweb:/ipfs/QmaVyUknjCw6D29QTeMyrgqt7SmKirk8661NeH3Xe4mJNm"
+				"bzz-raw://dbd1c789d64f982253766733c6ef385d72b23d0ddda1a136ad6470df2e17f030",
+				"dweb:/ipfs/QmP4PpV6yDhpohsnrQQTvwK4GSkjpXJV6rYj2jjaseuNa1"
 			]
 		},
 		"flash-loan/IERC3156FlashLender.sol": {

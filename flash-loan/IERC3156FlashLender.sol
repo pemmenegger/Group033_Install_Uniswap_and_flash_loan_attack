@@ -16,8 +16,7 @@ interface IERC3156FlashLender {
     function flashLoan(
         IERC3156FlashBorrower receiver,
         address token,
-        uint256 amount,
-        bytes calldata data
+        uint256 amount
     ) external returns (bool);
 
 }

@@ -6,7 +6,6 @@ interface IERC3156FlashBorrower {
         address initiator,
         address token,
         uint256 amount,
-        uint256 fee,
-        bytes calldata data
+        uint256 fee
     ) external returns (bytes32);
 }
