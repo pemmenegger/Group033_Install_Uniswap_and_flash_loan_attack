@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -229,15 +229,19 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"loan/ierc20token.sol": "IERC20"
+			"collateral-loan/ierc20token.sol": "IERC20"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -245,17 +249,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"loan/ierc20token.sol": {
-			"keccak256": "0x7e84c7e2d7444104b23c67af300bc1c12d8fd1571dc75c0cb481aced3dd22d2a",
+		"collateral-loan/ierc20token.sol": {
+			"keccak256": "0x9419dab5b3433a184862add9dd13fee1543833d1b297c18d374e1db40280b83b",
+			"license": "UZH",
 			"urls": [
-				"bzz-raw://710256a4ef75026321c3f38354ddaca582d6cae60c21b1ee2eb3e3be7b91bf6e",
-				"dweb:/ipfs/QmYaS4SELZLHnycbmJwaf7YmweXY5c382vvF1sgXyv1PRk"
+				"bzz-raw://742e262c09870ac7ed4d58c368de37d9a33df630e06fa39bbaf914e9da467cc3",
+				"dweb:/ipfs/QmdnxMqt3HUwETJ1ysoaMgwfcoD9KumRZXosQN5WqZCjCU"
 			]
 		}
 	},

@@ -31,12 +31,14 @@
 	},
 	"data": {
 		"bytecode": {
+			"generatedSources": [],
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
 			"sourceMap": ""
 		},
 		"deployedBytecode": {
+			"generatedSources": [],
 			"immutableReferences": {},
 			"linkReferences": {},
 			"object": "",

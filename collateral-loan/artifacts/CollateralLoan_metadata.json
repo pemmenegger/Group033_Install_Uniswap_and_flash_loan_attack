@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenToBorrow",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenAsCollateral",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "collateralAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "loan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"collateral-loan/CollateralLoan.sol": "CollateralLoan"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"collateral-loan/CollateralLoan.sol": {
+			"keccak256": "0x14a68abfd2dbc179f27d9e38aa5976414ee9c83f97668bd0c49fc0173087b8e0",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://d6582b7d6827d330a5ef7f95be867183f2a722a8e72752f0c8bd11c343c449b8",
+				"dweb:/ipfs/QmcYneUmY1o72MbTjpHfYtbB1vkjexTPL7c5bd3QrcNneK"
+			]
+		},
+		"collateral-loan/ICollateralLoan.sol": {
+			"keccak256": "0x281f5ba923c5835e27775e388259b4eae3989125da991dcc2187d6cf7ccd12fa",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://d691a2703557284f8351a05f548b53165d83481cfe3ae9b5350dce92bfdf9405",
+				"dweb:/ipfs/QmS5wruKwnotRCkTqcnqoN6qDCnWBs26Ekgs84x8wFtmvY"
+			]
+		},
+		"collateral-loan/ierc20token.sol": {
+			"keccak256": "0x9419dab5b3433a184862add9dd13fee1543833d1b297c18d374e1db40280b83b",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://742e262c09870ac7ed4d58c368de37d9a33df630e06fa39bbaf914e9da467cc3",
+				"dweb:/ipfs/QmdnxMqt3HUwETJ1ysoaMgwfcoD9KumRZXosQN5WqZCjCU"
+			]
+		},
+		"uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
+			"keccak256": "0xe5905c0989cf5a865ed9bb7b9252536ca011c5b744017a82a7d4443b9c00a891",
+			"urls": [
+				"bzz-raw://5d2a90a0a796491507462a3da18c3f8819721d571572d765a2207c35bf0a0389",
+				"dweb:/ipfs/Qmf9ACYiT3qzjgsYuhm866FBdiBpRMXAPpQhSFbgqcyhHt"
+			]
+		},
+		"uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+			"keccak256": "0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b",
+			"urls": [
+				"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf",
+				"dweb:/ipfs/QmayKQWJgWmr46DqWseADyUanmqxh662hPNdAkdHRjiQQH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -17,6 +17,45 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "curBalanceDoge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "curBalanceUsdt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "delta",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -32,6 +71,32 @@
 				"name": "flashBorrow",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newBalanceDoge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newBalanceUsdt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -102,17 +167,26 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"flash-loan/FlashBorrower.sol": {
-			"keccak256": "0x4260f6cc01265f45518600888ddf3cdd06370bd9d7a56504770e3e317106bb28",
+		"collateral-loan/ICollateralLoan.sol": {
+			"keccak256": "0x281f5ba923c5835e27775e388259b4eae3989125da991dcc2187d6cf7ccd12fa",
+			"license": "UZH",
 			"urls": [
-				"bzz-raw://1b53522dada73df56caa1568cd8dd091124a7e01b10eb462ae5b491475816c30",
-				"dweb:/ipfs/QmbpF2fpVs4EHsvGD13zicvDLVtH5bt26bUNKTE1mfkPKM"
+				"bzz-raw://d691a2703557284f8351a05f548b53165d83481cfe3ae9b5350dce92bfdf9405",
+				"dweb:/ipfs/QmS5wruKwnotRCkTqcnqoN6qDCnWBs26Ekgs84x8wFtmvY"
+			]
+		},
+		"flash-loan/FlashBorrower.sol": {
+			"keccak256": "0xaeb28b11ff967021da24fbbcb0d2536268cf70a36cca9a4e83b66ed63e4f48f0",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://10696f7fc399c36da39341a1ff9f46d1fc98c4c99963760e1636706a197f826f",
+				"dweb:/ipfs/QmdZD9T9bJTEbVq4VDJPLAUP3tYfWW4FpUKY8Lp9YGUvsf"
 			]
 		},
 		"flash-loan/IERC20.sol": {
@@ -134,6 +208,20 @@
 			"urls": [
 				"bzz-raw://0d503eb7b592ff2a1b8402d764efa171499417c1704d9cba68871009ad6271a8",
 				"dweb:/ipfs/QmYL1qpCAKY2yFXyWuTDXonhrvJsZYgTVbK3B1ZEpuFnH8"
+			]
+		},
+		"uniswap-v2/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
+			"keccak256": "0x8a3c5c449d4b7cd76513ed6995f4b86e4a86f222c770f8442f5fc128ce29b4d2",
+			"urls": [
+				"bzz-raw://1df63ca373dafae3bd0ee7fe70f890a1dc7c45ed869c01de68413e0e97ff9deb",
+				"dweb:/ipfs/QmefJgEYGUL8KX7kQKYTrDweF8GB7yjy3nw5Bmqzryg7PG"
+			]
+		},
+		"uniswap-v2/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
+			"keccak256": "0x744e30c133bd0f7ca9e7163433cf6d72f45c6bb1508c2c9c02f1a6db796ae59d",
+			"urls": [
+				"bzz-raw://9bf2f4454ad63d4cff03a0630e787d9e8a9deed80aec89682cd8ad6379d9ef8c",
+				"dweb:/ipfs/Qme51hQNR2wpax7ooUadhtqLtXm8ffeVVYyubLkTT4wMCG"
 			]
 		}
 	},
