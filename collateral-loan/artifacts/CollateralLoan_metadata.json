@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "_isFlashLoanAttackPossible",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -24,6 +37,19 @@
 					}
 				],
 				"name": "loan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isFlashLoanAttackPossible",
+						"type": "bool"
+					}
+				],
+				"name": "setIsFlashLoanAttackPossible",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -57,11 +83,11 @@
 	},
 	"sources": {
 		"collateral-loan/CollateralLoan.sol": {
-			"keccak256": "0x14a68abfd2dbc179f27d9e38aa5976414ee9c83f97668bd0c49fc0173087b8e0",
-			"license": "UZH",
+			"keccak256": "0x30e33a98ea9f56cdc679bbc1ae5607ae5186971d277cfa8465f72d9885ae406f",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://d6582b7d6827d330a5ef7f95be867183f2a722a8e72752f0c8bd11c343c449b8",
-				"dweb:/ipfs/QmcYneUmY1o72MbTjpHfYtbB1vkjexTPL7c5bd3QrcNneK"
+				"bzz-raw://114a3725f561669c1f7a81322c54500df14fe941d71e57c00d5e30f7b185a6e1",
+				"dweb:/ipfs/QmTwRVFAs9LtTmEmw21bu5SWDxmzbzP7ZVExCPrSCSzogv"
 			]
 		},
 		"collateral-loan/ICollateralLoan.sol": {
