@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountB",
+						"type": "uint256"
+					}
+				],
+				"name": "addLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					}
+				],
+				"name": "removeLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestUniswapLiquidity.sol": "TestUniswapLiquidity"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x027b891937d20ccf213fdb9c31531574256de774bda99d3a70ecef6e1913ed2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://087318b21c528119f649899f5b5580566dd8d7b0303d4904bd0e8580c3545f14",
+				"dweb:/ipfs/Qmbn5Mj7aUn8hJuQ8VrQjjEXRsXyJKykgnjR9p4C3nfLtL"
+			]
+		},
+		"contracts/TestUniswapLiquidity.sol": {
+			"keccak256": "0xd2e5def2f5b35df588f8a63c182590ab3decc21bf5238606ba969c6bdc96d691",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://820d375f0f0b805bf2ab4afc706ebaed9604b3a60ba2b3cd4fc7d63abf7ae67d",
+				"dweb:/ipfs/QmdZSwJsZoWTNsVVrHrq748SrMBgxjdDDQXUaAJJ6bw1wP"
+			]
+		},
+		"contracts/interfaces/IUniswap.sol": {
+			"keccak256": "0xa0e9bbf543293ec553e3b52d90acfbff41ebef81e943cf19c03754c3c4b9b2c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cbe7c3ca1bb0019f4d4d9b783fc988005a7fc5efd965cc568bb8377eee9e520",
+				"dweb:/ipfs/QmP9XnZz7RPWvisdUxz7eNgwyNthCHPd953C6dcinmxUPm"
+			]
+		}
+	},
+	"version": 1
+}
