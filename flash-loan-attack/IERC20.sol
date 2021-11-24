@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: UZH
 pragma solidity ^0.8.0;
 
 //interface for our contract to know how does an ERC20 looks like

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
@@ -53,9 +53,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"flash-loan/IERC3156FlashBorrower.sol": "IERC3156FlashBorrower"
+			"flash-loan-attack/flash-loan/IERC3156FlashBorrower.sol": "IERC3156FlashBorrower"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -67,11 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"flash-loan/IERC3156FlashBorrower.sol": {
-			"keccak256": "0x853406a46a60053858e90ad66a5ee238d633f3eb78f18c720d530561158e1397",
+		"flash-loan-attack/flash-loan/IERC3156FlashBorrower.sol": {
+			"keccak256": "0x78280502f958ada4d5ca6c78197e55c81674dee373ac0f7d0ae96db4778238c5",
+			"license": "UZH",
 			"urls": [
-				"bzz-raw://b56321a6786cee21e1bef8f7f7f170a08e32c67acaf11342e7cdd69fdfb93a4b",
-				"dweb:/ipfs/QmaVyUknjCw6D29QTeMyrgqt7SmKirk8661NeH3Xe4mJNm"
+				"bzz-raw://b3afbd8e0e1f3855eb0746d6c0e7ad1838586b49f5e0ddcc975ce092e3a5093e",
+				"dweb:/ipfs/QmfQTZRhrMkzxDwA2qmSikAFTUrXabhGZWrFKBeDefBZaz"
 			]
 		}
 	},

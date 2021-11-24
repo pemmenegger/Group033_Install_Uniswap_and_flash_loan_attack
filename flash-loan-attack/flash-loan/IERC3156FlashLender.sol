@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: UZH
 pragma solidity ^0.7.0 || ^0.8.0; 
 import "./IERC3156FlashBorrower.sol";
 //the import above means there is another contract, that we will discusse later in this very post

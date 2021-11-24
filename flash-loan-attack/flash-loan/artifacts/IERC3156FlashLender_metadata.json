@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
@@ -91,9 +91,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"flash-loan/IERC3156FlashLender.sol": "IERC3156FlashLender"
+			"flash-loan-attack/flash-loan/IERC3156FlashLender.sol": "IERC3156FlashLender"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -105,18 +105,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"flash-loan/IERC3156FlashBorrower.sol": {
-			"keccak256": "0x5dc6ed96593ae51bfbc8a9f4682ca8c6bcf05ab9dac854f0015bec3c518fce87",
+		"flash-loan-attack/flash-loan/IERC3156FlashBorrower.sol": {
+			"keccak256": "0x78280502f958ada4d5ca6c78197e55c81674dee373ac0f7d0ae96db4778238c5",
+			"license": "UZH",
 			"urls": [
-				"bzz-raw://dbd1c789d64f982253766733c6ef385d72b23d0ddda1a136ad6470df2e17f030",
-				"dweb:/ipfs/QmP4PpV6yDhpohsnrQQTvwK4GSkjpXJV6rYj2jjaseuNa1"
+				"bzz-raw://b3afbd8e0e1f3855eb0746d6c0e7ad1838586b49f5e0ddcc975ce092e3a5093e",
+				"dweb:/ipfs/QmfQTZRhrMkzxDwA2qmSikAFTUrXabhGZWrFKBeDefBZaz"
 			]
 		},
-		"flash-loan/IERC3156FlashLender.sol": {
-			"keccak256": "0xa178542630e7f40cef91afcbb73e2a143d0d99c80ef5be211e996d3ca01140e6",
+		"flash-loan-attack/flash-loan/IERC3156FlashLender.sol": {
+			"keccak256": "0xda7b679128ca32e2281cf7652dad25b55f847a2b237ac8bb1dea8d40edd1daf9",
+			"license": "UZH",
 			"urls": [
-				"bzz-raw://6c8ea5fdcc56146c40d53473390114f0a40ec23095564ee058a40ca629ea5f80",
-				"dweb:/ipfs/QmRLiokmhWeNtZUpage3Vex6cRQvz8a1ErTsWnXvGapqSQ"
+				"bzz-raw://17211210dca59b320ff8616389edc2fa8d0fa76e8f8c95baf358b00a20ea48b2",
+				"dweb:/ipfs/QmVJCeZt2FQU1s6Bmtys62ciSSum8CLaZACn6p5aK3CEmu"
 			]
 		}
 	},

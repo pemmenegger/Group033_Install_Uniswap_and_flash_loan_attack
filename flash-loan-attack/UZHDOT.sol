@@ -30,7 +30,7 @@ contract UZHDOT {
 
 
     constructor(uint256 total) public {  
-	    totalSupply_ = total* 100; // Multiplied by 100 because of 2 decimals
+	    totalSupply_ = total* 1000000000000000000; // Because of 18 decimals
 	    balances[msg.sender] = totalSupply_;
     }  
 

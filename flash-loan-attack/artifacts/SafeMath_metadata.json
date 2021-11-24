@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flash-loan-attack/UZHUST.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flash-loan-attack/UZHUST.sol": {
+			"keccak256": "0x87974ce374e7e9a6072cfeb4312ac7dc0b227a0aed0e0178cef1b75c13f7c2ac",
+			"urls": [
+				"bzz-raw://ea7dc4c6812f8b95717cc49a6fe524b740efc9a35c5d5f48e02dc56f2c252177",
+				"dweb:/ipfs/QmVJRu3VjdHQioSQsUf7B9N5xEeGGxyj9cbq3qiiwsddqs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
@@ -51,12 +51,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "token",
+						"name": "tokenToFlashLoan",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "amountToFlashLoan",
 						"type": "uint256"
 					}
 				],
@@ -80,12 +80,12 @@
 					},
 					{
 						"internalType": "address",
-						"name": "token",
+						"name": "tokenToFlashLoan",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "amountToFlashLoan",
 						"type": "uint256"
 					}
 				],
@@ -104,7 +104,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "token",
+						"name": "tokenToFlashLoan",
 						"type": "address"
 					}
 				],
@@ -152,9 +152,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"flash-loan/FlashLender.sol": "FlashLender"
+			"flash-loan-attack/flash-loan/FlashLender.sol": "FlashLender"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -166,28 +166,28 @@
 		"remappings": []
 	},
 	"sources": {
-		"flash-loan/FlashLender.sol": {
-			"keccak256": "0x2fef8be384432caf0850f1a01b759ba0af0bdddf39633a4350e2da2f88d359ca",
-			"urls": [
-				"bzz-raw://f48f413ac318996a8259c37ee760a2aa6bc13ed22761dcb25d1f0c759c9627bc",
-				"dweb:/ipfs/QmUcm4D1qTC74gHgjQVwRyL92cVgZX6Hn4SPshecKkJ3Go"
-			]
-		},
-		"flash-loan/IERC20.sol": {
+		"flash-loan-attack/IERC20.sol": {
 			"keccak256": "0x1583c0eb3936daad6131957100a5fca59b9c74c370f747d6df01712d91a75b6c",
 			"urls": [
 				"bzz-raw://3c8f414c11b03c9a205a1ecb981881cb28610fe7dc23f16e6da88fa9d9c63a92",
 				"dweb:/ipfs/QmXKRe2W3cSnLbvoa4WxAm4dhV1mtN7FJHi7CmobcPPeon"
 			]
 		},
-		"flash-loan/IERC3156FlashBorrower.sol": {
+		"flash-loan-attack/flash-loan/FlashLender.sol": {
+			"keccak256": "0xb3c2983f807c638676453404879687c111bdae43aeedc00b3372805b4e7019de",
+			"urls": [
+				"bzz-raw://6b6cd10f083488fcf3a9421dfef326e259e4d248138a0547d34bcd2dd2c2b76f",
+				"dweb:/ipfs/QmdugRdu6yr6PsRxrtsZMsKNxBZHvB8pbjF8PmD318923z"
+			]
+		},
+		"flash-loan-attack/flash-loan/IERC3156FlashBorrower.sol": {
 			"keccak256": "0x853406a46a60053858e90ad66a5ee238d633f3eb78f18c720d530561158e1397",
 			"urls": [
 				"bzz-raw://b56321a6786cee21e1bef8f7f7f170a08e32c67acaf11342e7cdd69fdfb93a4b",
 				"dweb:/ipfs/QmaVyUknjCw6D29QTeMyrgqt7SmKirk8661NeH3Xe4mJNm"
 			]
 		},
-		"flash-loan/IERC3156FlashLender.sol": {
+		"flash-loan-attack/flash-loan/IERC3156FlashLender.sol": {
 			"keccak256": "0xa178542630e7f40cef91afcbb73e2a143d0d99c80ef5be211e996d3ca01140e6",
 			"urls": [
 				"bzz-raw://6c8ea5fdcc56146c40d53473390114f0a40ec23095564ee058a40ca629ea5f80",

@@ -31,16 +31,12 @@
 	},
 	"data": {
 		"bytecode": {
-			"functionDebugData": {},
-			"generatedSources": [],
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
 			"sourceMap": ""
 		},
 		"deployedBytecode": {
-			"functionDebugData": {},
-			"generatedSources": [],
 			"immutableReferences": {},
 			"linkReferences": {},
 			"object": "",
@@ -49,7 +45,7 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"onFlashLoan(address,address,uint256,uint256)": "f3a78104"
+			"listToken(address,string)": "45094f01"
 		}
 	},
 	"abi": [
@@ -57,31 +53,21 @@
 			"inputs": [
 				{
 					"internalType": "address",
-					"name": "initiator",
+					"name": "tokenAddress",
 					"type": "address"
 				},
 				{
-					"internalType": "address",
-					"name": "token",
-					"type": "address"
-				},
-				{
-					"internalType": "uint256",
-					"name": "amount",
-					"type": "uint256"
-				},
-				{
-					"internalType": "uint256",
-					"name": "fee",
-					"type": "uint256"
+					"internalType": "string",
+					"name": "tokenName",
+					"type": "string"
 				}
 			],
-			"name": "onFlashLoan",
+			"name": "listToken",
 			"outputs": [
 				{
-					"internalType": "bytes32",
+					"internalType": "bool",
 					"name": "",
-					"type": "bytes32"
+					"type": "bool"
 				}
 			],
 			"stateMutability": "nonpayable",

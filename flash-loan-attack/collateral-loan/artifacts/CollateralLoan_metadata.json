@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
@@ -68,9 +68,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"collateral-loan/CollateralLoan.sol": "CollateralLoan"
+			"flash-loan-attack/collateral-loan/CollateralLoan.sol": "CollateralLoan"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -82,42 +82,42 @@
 		"remappings": []
 	},
 	"sources": {
-		"collateral-loan/CollateralLoan.sol": {
-			"keccak256": "0x30e33a98ea9f56cdc679bbc1ae5607ae5186971d277cfa8465f72d9885ae406f",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://114a3725f561669c1f7a81322c54500df14fe941d71e57c00d5e30f7b185a6e1",
-				"dweb:/ipfs/QmTwRVFAs9LtTmEmw21bu5SWDxmzbzP7ZVExCPrSCSzogv"
-			]
-		},
-		"collateral-loan/ICollateralLoan.sol": {
-			"keccak256": "0x281f5ba923c5835e27775e388259b4eae3989125da991dcc2187d6cf7ccd12fa",
-			"license": "UZH",
-			"urls": [
-				"bzz-raw://d691a2703557284f8351a05f548b53165d83481cfe3ae9b5350dce92bfdf9405",
-				"dweb:/ipfs/QmS5wruKwnotRCkTqcnqoN6qDCnWBs26Ekgs84x8wFtmvY"
-			]
-		},
-		"collateral-loan/ierc20token.sol": {
-			"keccak256": "0x9419dab5b3433a184862add9dd13fee1543833d1b297c18d374e1db40280b83b",
-			"license": "UZH",
-			"urls": [
-				"bzz-raw://742e262c09870ac7ed4d58c368de37d9a33df630e06fa39bbaf914e9da467cc3",
-				"dweb:/ipfs/QmdnxMqt3HUwETJ1ysoaMgwfcoD9KumRZXosQN5WqZCjCU"
-			]
-		},
-		"uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
+		"dependencies/uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
 			"keccak256": "0xe5905c0989cf5a865ed9bb7b9252536ca011c5b744017a82a7d4443b9c00a891",
 			"urls": [
 				"bzz-raw://5d2a90a0a796491507462a3da18c3f8819721d571572d765a2207c35bf0a0389",
 				"dweb:/ipfs/Qmf9ACYiT3qzjgsYuhm866FBdiBpRMXAPpQhSFbgqcyhHt"
 			]
 		},
-		"uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+		"dependencies/uniswap-v2/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
 			"keccak256": "0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b",
 			"urls": [
 				"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf",
 				"dweb:/ipfs/QmayKQWJgWmr46DqWseADyUanmqxh662hPNdAkdHRjiQQH"
+			]
+		},
+		"flash-loan-attack/IERC20.sol": {
+			"keccak256": "0x74f42332c106469ff932ddc8d9fa45bf0c514b7c4f5a81690567cd8345b7761c",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://74feac85f7246fec258dcca2e918c73799674e1fbd3318402a40886db1c90271",
+				"dweb:/ipfs/QmYnEejYKUZY7gsrdhie5vdTs8uKKcBjAtUCEBiMkXx9yd"
+			]
+		},
+		"flash-loan-attack/collateral-loan/CollateralLoan.sol": {
+			"keccak256": "0x2df9a844dd57fa847853743920eec7be48da19497e7bf6de7505dc4938868138",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://084a4955010078a2e1963e6d9c6250dd522dd963f4a4be9bcd1b65ed2b60af67",
+				"dweb:/ipfs/QmZSpTJuYGq3YDfzr2kCuhYXRqoCSyrg8uWsYjKomtwxqz"
+			]
+		},
+		"flash-loan-attack/collateral-loan/ICollateralLoan.sol": {
+			"keccak256": "0x281f5ba923c5835e27775e388259b4eae3989125da991dcc2187d6cf7ccd12fa",
+			"license": "UZH",
+			"urls": [
+				"bzz-raw://d691a2703557284f8351a05f548b53165d83481cfe3ae9b5350dce92bfdf9405",
+				"dweb:/ipfs/QmS5wruKwnotRCkTqcnqoN6qDCnWBs26Ekgs84x8wFtmvY"
 			]
 		}
 	},
