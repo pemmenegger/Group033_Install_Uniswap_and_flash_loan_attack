@@ -42,7 +42,7 @@ contract APIConsumer is ChainlinkClient {
         //Oracle address we just deployed
         oracle = http://130.60.24.79:1234/?network=UZHETH;
         //Ethereum network address
-        jobId = "50a5eeb502ae43a2ae5074bb99df329f;
+        jobId = "50a5eeb502ae43a2ae5074bb99df329f";
         //The minimum fee paid to Oracle becomes visible in the configuration page minimum_ CONTRACT_ View the payment field
         fee = 1 * 10 ** 18; // 1 LINK
     }
